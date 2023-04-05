@@ -4,7 +4,7 @@ echo "This script will convert snapshots to a json format"
 
 echo "\n\nProcessing snapshots..."
 
-LEAP_UTIL="$HOME/Projects/leap/build/bin/leap-util"
+LEAP_UTIL="leap-util"
 SNAPSHOTS="$HOME/.local/share/eosio/nodeos/data/snapshots"
 
 for snap in $SNAPSHOTS/*.bin 
